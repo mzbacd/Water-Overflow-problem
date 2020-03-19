@@ -10,7 +10,6 @@ export function waterOverflowCalc({
   queryGlass
 }: Query): number {
   const glassCapacity = 0.25;
-
   const dp = Array(queryRow + 2)
     .fill(0)
     .map(() => Array(queryRow + 2).fill(0));
