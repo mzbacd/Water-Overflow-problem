@@ -1,0 +1,6 @@
+{
+  "roots": ["<rootDir>/src"],
+  "coverageDirectory": "coverage",
+  "clearMocks": true,
+  "testEnvironment": "node"
+}
