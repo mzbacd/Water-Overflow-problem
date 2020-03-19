@@ -4,7 +4,11 @@ export interface Query {
   queryGlass: number;
 }
 
-export function waterOverflowCalc({ poured, queryRow, queryGlass }: Query) {
+export function waterOverflowCalc({
+  poured,
+  queryRow,
+  queryGlass
+}: Query): number {
   const dp = Array(queryRow + 2)
     .fill(0)
     .map(() => Array(queryRow + 2).fill(0));
