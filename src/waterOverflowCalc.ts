@@ -25,6 +25,5 @@ export function waterOverflowCalc({
       }
     }
   }
-
   return Math.min(glassCapacity, dp[queryRow][queryGlass]);
 }

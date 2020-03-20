@@ -41,6 +41,14 @@ describe("waterOverflowCalc", () => {
         queryGlass: 4
       },
       0
+    ],
+    [
+      {
+        poured: 10,
+        queryRow: 2,
+        queryGlass: 3
+      },
+      0
     ]
   ];
   it("should caculate the liquid for jth glass of ith row correctly", () => {
